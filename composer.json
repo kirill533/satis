@@ -1,5 +1,6 @@
 {
-    "name": "composer/satis",
+    "name": "bim/satis",
+    "version": "1.1.0", 
     "description": "Simple Repository Generator",
     "keywords": ["package", "repository", "generator", "static", "composer"],
     "homepage": "https://github.com/composer/satis",
@@ -26,9 +27,9 @@
     },
     "bin": ["bin/satis"],
     "require": {
-        "php": "^7.3||^8.0",
+        "php": "^7.2||^7.3||^8.0",
         "composer/composer": "^1.9",
-        "symfony/console": "^4.4||^5.0",
+        "symfony/console": "^4.1||^4.4||^5.0",
         "twig/twig": "^2.12||^3.0"
     },
     "autoload": {
